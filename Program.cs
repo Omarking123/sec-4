@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace sec_4
+﻿namespace sec_4
 {
     internal class Program
     {
@@ -80,6 +78,19 @@ namespace sec_4
             //{
             //    Console.WriteLine(item);
             //}
+            #endregion
+
+            #region video 6 
+
+            SortedList<int, string> paris = new SortedList<int, string>();
+            //paris.SetValueAtIndex(1);
+            paris.Add(1,"ahmed");
+            paris.Add(2, "alio");
+            paris.Add(3, "omar");
+            paris.Add(4, "mohead");
+
+            //SortedList<int> value = new SortedList<int>();
+
             #endregion
         }
     }
