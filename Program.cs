@@ -35,7 +35,7 @@ namespace sec_4
             #region  video 3
             //Dictionary<string, long> phoneBook = new Dictionary<string, long>();
 
-            
+
             //phoneBook.Add("ahmed", 111111);
             //phoneBook.Add("ali", 22222);
             //phoneBook.Add("amr", 33333);
@@ -50,6 +50,21 @@ namespace sec_4
             //{
             //    Console.Write($"{item} ");
             //}
+            #endregion
+
+            #region video 4
+
+            HashSet<string> Names = new HashSet<string>();
+
+            Names.Add("ahmed");
+            Names.Add("ali");
+            Names.Add("amr");
+
+            foreach(var item in Names)
+            {
+                Console.WriteLine(Names);
+            }
+
             #endregion
         }
     }
