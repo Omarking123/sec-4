@@ -31,6 +31,26 @@ namespace sec_4
             //    Console.Write($"{item} ");
             //}
             #endregion
+
+            #region  video 3
+            //Dictionary<string, long> phoneBook = new Dictionary<string, long>();
+
+            
+            //phoneBook.Add("ahmed", 111111);
+            //phoneBook.Add("ali", 22222);
+            //phoneBook.Add("amr", 33333);
+            ////phonebook.Add(2222, "amr");
+
+
+            ////var flag = phoneBook.Remove("ahmesddd", out long result);
+
+            ////Console.WriteLine(flag);
+            ////Console.WriteLine(result);
+            //foreach (KeyValuePair<string, long > item in phoneBook)
+            //{
+            //    Console.Write($"{item} ");
+            //}
+            #endregion
         }
     }
 }
