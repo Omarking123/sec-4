@@ -54,17 +54,32 @@ namespace sec_4
 
             #region video 4
 
-            HashSet<string> Names = new HashSet<string>();
+            //HashSet<string> Names = new HashSet<string>();
 
-            Names.Add("ahmed");
-            Names.Add("ali");
-            Names.Add("amr");
+            //Names.Add("ahmed");
+            //Names.Add("ali");
+            //Names.Add("amr");
 
-            foreach(var item in Names)
-            {
-                Console.WriteLine(Names);
-            }
+            //foreach(var item in Names)
+            //{
+            //    Console.WriteLine(Names);
+            //}
 
+            #endregion
+
+            #region video 5
+
+            //SortedDictionary<int, string> paris = new SortedDictionary<int, string>();
+
+            //paris.Add(23 ,"omar");
+            //paris.Add(12, "ahmed");
+            //paris.Add(10, "ali");
+            //paris.Add(1, "mohamed");
+
+            //foreach(var item in paris)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
         }
     }
